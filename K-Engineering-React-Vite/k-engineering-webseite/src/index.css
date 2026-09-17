@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{.primary{@apply inline-flex items-center justify-center gap-3 border-2 border-[#202421] bg-[#202421] px-7 py-4 font-black text-white hover:bg-[#e87500];}.secondary{@apply inline-flex items-center justify-center gap-3 border-2 border-[#202421] px-7 py-4 font-black hover:bg-white;}.input{@apply w-full border-2 border-[#8a8f8a] bg-white px-4 py-3 outline-none focus:border-[#e87500];}}
+.blueprint{background-image:linear-gradient(#68706a 1px,transparent 1px),linear-gradient(90deg,#68706a 1px,transparent 1px);background-size:32px 32px;}
